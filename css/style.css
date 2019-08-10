@@ -1,4 +1,37 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #dadada;
-  font-size: 10px;
+  font-family: sans-serif;
+  font-size: 75%;
+  width: auto;
+}
+.container {
+  width: 90%;
+}
+div {
+  float: left;
+  margin: 1% 0;
+  width: 100%;
+}
+@media screen and (min-width: 60em){
+   div {
+    margin: 1%;
+    width: 48%;
+  }
+}
+@media screen and (min-width: 991px){
+   div {
+    margin: 1%;
+    width: 48%;
+  }
+}
+.images {
+  width: 100%;
+  height: 100%;
+}
+h1 {
+  font-size: 5em;
 }
