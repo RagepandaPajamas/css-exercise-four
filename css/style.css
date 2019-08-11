@@ -17,18 +17,6 @@ div {
   width: 100%;
 }
 
-@media screen and (min-width: 60em){
-   div {
-    margin: 1%;
-    width: 48%;
-  }
-}
-@media screen and (min-width: 991px){
-   div {
-    margin: 1%;
-    width: 48%;
-  }
-}
 div .preview-baku {
   background-image: url("images/baku.jpg");
   background-size: cover;
@@ -45,6 +33,20 @@ div .preview-rome {
   background-image: url("images/rome.jpg");
   background-size: cover;
 }
+
+@media screen and (min-width: 60em){
+   div {
+    margin: 1%;
+    width: 48%;
+  }
+}
+@media screen and (min-width: 991px){
+   div {
+    margin: 1%;
+    width: 48%;
+  }
+}
+
 h1 {
   font-size: 5em;
 }
