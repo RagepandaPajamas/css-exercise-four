@@ -10,33 +10,34 @@ body {
 }
 .container {
   width: 90%;
+
 }
 div {
   float: left;
   margin: 1% 0;
   width: 100%;
-  height: 500px;
+  height: 20em;
   background-size: cover;
 }
 
-div .preview-baku {
-  background-image: url("images/baku.jpg");
+.preview-baku {
+  background-image: url("../images/baku.jpg");
 }
-div .preview-london {
-  background-image: url("images/london.png");
+.preview-london {
+  background-image: url("../images/london.png");
 }
-div .preview-madrid {
-  background-image: url("images/madrid.jpg");
+.preview-madrid {
+  background-image: url("../images/madrid.jpg");
 }
-div .preview-rome {
-  background-image: url("images/rome.jpg");
+.preview-rome {
+  background-image: url("../images/rome.jpg");
 }
 
 h1 {
   font-size: 5em;
 }
 
-@media screen and (min-width: 60em){
+@media screen and (min-width: 575px){
    div {
     margin: 1%;
     width: 48%;
@@ -45,6 +46,6 @@ h1 {
 @media screen and (min-width: 991px){
    div {
     margin: 1%;
-    width: 48%;
+    width: 22%;
   }
 }
